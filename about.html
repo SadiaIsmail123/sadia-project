@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mdb.css">
+    <style>
+         body {
+            background:linear-gradient((to bottom,#f0f4f8,#e0e7ff)); 
+            font-family: 'Poppins 'sans-serif;
+        }
+         
+    
+        
+        .navbar-nav .nav-link {
+        color: #e5e5e5; 
+        transition: color 0.3s ease;
+    }
+    .navbar-nav .nav-link:hover {
+        color: #34e89e; 
+    }
+    .nav{
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        background: linear-gradient(to right,#1a1f36,#28304e);
+    }
+    .navbar-brand{
+        color: #34e89e;
+    }
+    .about-section{
+        margin-top: 60px;
+            background: linear-gradient(to right, #e0e7ff, #f5f5f5);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15)
+    }
+    .about-heading {
+            color: #1a1f36;
+            font-size: 36px;
+            font-weight: 700;
+    }
+    .about-text {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #333;
+        }
+        .profile-picture {
+            max-width: 90%;
+            border-radius: 50%;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+        }
+        .btn-primary {
+            background-color: #34e89e;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #2dbd6e;
+        }
+
+        
+        @media (max-width: 768px) {
+            .profile-picture {
+                width: 200px;
+                height: 200px;
+            }
+            .about-heading {
+                font-size: 28px;
+            }
+            .about-text {
+                font-size: 16px;
+            }
+
+        }
+    </style>
+   
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light "style="background-color:#1A1F36;">
+    <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+</ul>
+</div>
+</nav>
+  <div class="container about-section">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h1 class="about-heading">About Me</h1>
+            <p class="about-text">
+                Hello! I am Sadia, a Computer Science student with a passion for technology and programming. I am currently working on various personal projects, improving my skills in web development, and exploring new technologies. I am always eager to learn and collaborate with like-minded individuals. Feel free to explore my website to know more about me and my work!
+            </p>
+            <p class="about-text">
+                In my spare time, I enjoy reading about tech innovations, contributing to open-source projects, and honing my skills through online courses.
+            </p>
+        </div>
+        
+        <div class="col-md-4 text-center">
+            <img src="pic3.png" alt="Your Profile Picture" class="profile-picture">
+        </div>
+    </div>
+
+    
+    
+
+
+
+
+    <script src="mdbjs.js"></script>
+    <script src="jquery.js"></script>
+    <script src="bootstrapjs.js"></script>
+    <script src="popper.js"></script>
+    
+</body>
+</html>
